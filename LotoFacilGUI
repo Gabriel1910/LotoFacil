@@ -48,9 +48,9 @@ public class LotoFacilGUI extends JFrame {
 					int numeroSorteado = random.nextInt(101);
 
 					if (numeroApostado == numeroSorteado) {
-						JOptionPane.showMessageDialog(null, "Você ganhou R$ 1.000,00 reais.");
+						JOptionPane.showMessageDialog(null, "Você ganhou milzão.");
 					} else {
-						JOptionPane.showMessageDialog(null, "Que pena! O número sorteado foi: " + numeroSorteado + ".");
+						JOptionPane.showMessageDialog(null, "Você dançou! O número sorteado foi: " + numeroSorteado + ".");
 						System.out.println();
 					}
 				}
@@ -66,9 +66,9 @@ public class LotoFacilGUI extends JFrame {
 				char letraApostada = Character.toUpperCase(aposta.charAt(0));
 				if (Character.isLetter(letraApostada)) {
 					if (letraApostada == letraPremiada) {
-						JOptionPane.showMessageDialog(null, "Você ganhou R$ 500,00 reais.");
+						JOptionPane.showMessageDialog(null, "Você ganhou quinhetão.");
 					} else {
-						JOptionPane.showMessageDialog(null, "Que pena! A letra sorteada foi: " + letraPremiada + ".");
+						JOptionPane.showMessageDialog(null, "Você dançou! A letra sorteada foi: " + letraPremiada + ".");
 					}
 				} else {
 					JOptionPane.showMessageDialog(null, "Aposta inválida.");
@@ -85,10 +85,10 @@ public class LotoFacilGUI extends JFrame {
 				String aposta = JOptionPane.showInputDialog(null, "Digite uma aposta par ou impar");
 				int numeroApostado = Integer.parseInt(aposta);
 				if (numeroApostado % 2 == 0) {
-					JOptionPane.showMessageDialog(null, "Você ganhou R$ 100,00 reais.");
+					JOptionPane.showMessageDialog(null, "Você ganhou cenzão.");
 				} else {
 					JOptionPane.showMessageDialog(null,
-							"Que pena! O número digitado é ímpar e a premiação foi para números pares.");
+							"Você dançou! O número digitado é ímpar e a premiação foi para números pares.");
 				}
 			}
 
