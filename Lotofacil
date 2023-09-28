@@ -1,4 +1,4 @@
-package application;
+package LotoFacil;
 
 import java.io.IOException;
 import java.util.Random;
